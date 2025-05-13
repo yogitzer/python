@@ -15,3 +15,4 @@ if calc == 2:
     for i in range(num1, num2+1):
         sum = sum + i
     print("%d+...+%d는 %d입니다" %(num1, num2, sum))
+1
