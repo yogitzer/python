@@ -1,8 +1,10 @@
 inFp, outFp = None, None
 inStr = ""
 
-inFp = open("C:\\Windows\\win.ini","r")
-outFp = open("C:\\Users\\태은\\Desktop\\파이썬\\python\\filetest\\temp\\data3.txt","w")
+fName = input("파일명을 입력하세요: ")
+inFp = open(fName, "r", encoding= "utf-8")  
+fName2 = input("파일명을 입력하세요: ")
+outFp = open(fName2, "w", encoding= "utf-8")  
 
 inList = inFp.readlines()
 for inStr in inList:
